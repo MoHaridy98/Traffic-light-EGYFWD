@@ -1,21 +1,21 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                              ECUAL/timer/timer.o (__subsf3)
+                              MCAL/timer/timer.o (__subsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(ceil.o)
-                              ECUAL/timer/timer.o (ceil)
+                              MCAL/timer/timer.o (ceil)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                              ECUAL/timer/timer.o (__ltsf2)
+                              MCAL/timer/timer.o (__ltsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                              ECUAL/timer/timer.o (__divsf3)
+                              MCAL/timer/timer.o (__divsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                              ECUAL/timer/timer.o (__fixunssfsi)
+                              MCAL/timer/timer.o (__fixunssfsi)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                              ECUAL/timer/timer.o (__floatunsisf)
+                              MCAL/timer/timer.o (__floatunsisf)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
@@ -57,13 +57,6 @@ Discarded input sections
  .text          0x00000000        0x0 APP/app.o
  .data          0x00000000        0x0 APP/app.o
  .bss           0x00000000        0x0 APP/app.o
- .text          0x00000000        0x0 DIO/dio.o
- .data          0x00000000        0x0 DIO/dio.o
- .bss           0x00000000        0x0 DIO/dio.o
- .text.DIO_toggle
-                0x00000000       0x6e DIO/dio.o
- .text.DIO_read
-                0x00000000       0xc8 DIO/dio.o
  .text          0x00000000        0x0 ECUAL/button/button.o
  .data          0x00000000        0x0 ECUAL/button/button.o
  .bss           0x00000000        0x0 ECUAL/button/button.o
@@ -74,12 +67,19 @@ Discarded input sections
  .bss           0x00000000        0x0 ECUAL/LED/led.o
  .text.LED_toggle
                 0x00000000        0x6 ECUAL/LED/led.o
- .text          0x00000000        0x0 ECUAL/timer/timer.o
- .data          0x00000000        0x0 ECUAL/timer/timer.o
- .bss           0x00000000        0x0 ECUAL/timer/timer.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 MCAL/DIO/dio.o
+ .data          0x00000000        0x0 MCAL/DIO/dio.o
+ .bss           0x00000000        0x0 MCAL/DIO/dio.o
+ .text.DIO_toggle
+                0x00000000       0x6e MCAL/DIO/dio.o
+ .text.DIO_read
+                0x00000000       0xc8 MCAL/DIO/dio.o
+ .text          0x00000000        0x0 MCAL/timer/timer.o
+ .data          0x00000000        0x0 MCAL/timer/timer.o
+ .bss           0x00000000        0x0 MCAL/timer/timer.o
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
@@ -186,11 +186,11 @@ Linker script and memory map
 
 LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
 LOAD APP/app.o
-LOAD DIO/dio.o
 LOAD ECUAL/button/button.o
 LOAD ECUAL/LED/led.o
-LOAD ECUAL/timer/timer.o
 LOAD main.o
+LOAD MCAL/DIO/dio.o
+LOAD MCAL/timer/timer.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
 END GROUP
@@ -388,30 +388,30 @@ END GROUP
  .text.__vector_1
                 0x00000390       0x18 APP/app.o
                 0x00000390                __vector_1
- .text.DIO_init
-                0x000003a8       0xf4 DIO/dio.o
-                0x000003a8                DIO_init
- .text.DIO_write
-                0x0000049c       0xf4 DIO/dio.o
-                0x0000049c                DIO_write
  .text.BUTTON_init
-                0x00000590        0x8 ECUAL/button/button.o
-                0x00000590                BUTTON_init
+                0x000003a8        0x8 ECUAL/button/button.o
+                0x000003a8                BUTTON_init
  .text.LED_init
-                0x00000598        0x8 ECUAL/LED/led.o
-                0x00000598                LED_init
- .text.LED_on   0x000005a0        0x8 ECUAL/LED/led.o
-                0x000005a0                LED_on
- .text.LED_off  0x000005a8        0x8 ECUAL/LED/led.o
-                0x000005a8                LED_off
+                0x000003b0        0x8 ECUAL/LED/led.o
+                0x000003b0                LED_init
+ .text.LED_on   0x000003b8        0x8 ECUAL/LED/led.o
+                0x000003b8                LED_on
+ .text.LED_off  0x000003c0        0x8 ECUAL/LED/led.o
+                0x000003c0                LED_off
+ .text.main     0x000003c8        0xa main.o
+                0x000003c8                main
+ .text.DIO_init
+                0x000003d2       0xf4 MCAL/DIO/dio.o
+                0x000003d2                DIO_init
+ .text.DIO_write
+                0x000004c6       0xf4 MCAL/DIO/dio.o
+                0x000004c6                DIO_write
  .text.TIMER_init
-                0x000005b0        0x4 ECUAL/timer/timer.o
-                0x000005b0                TIMER_init
+                0x000005ba        0x4 MCAL/timer/timer.o
+                0x000005ba                TIMER_init
  .text.TIMER_delay
-                0x000005b4      0x100 ECUAL/timer/timer.o
-                0x000005b4                TIMER_delay
- .text.main     0x000006b4        0xa main.o
-                0x000006b4                main
+                0x000005be      0x100 MCAL/timer/timer.o
+                0x000005be                TIMER_delay
  .text.avr-libc.fplib
                 0x000006be        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
                 0x000006be                __subsf3
@@ -579,11 +579,11 @@ END GROUP
  *(.comment)
  .comment       0x00000000       0x30 APP/app.o
                                  0x31 (size before relaxing)
- .comment       0x00000030       0x31 DIO/dio.o
  .comment       0x00000030       0x31 ECUAL/button/button.o
  .comment       0x00000030       0x31 ECUAL/LED/led.o
- .comment       0x00000030       0x31 ECUAL/timer/timer.o
  .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 MCAL/DIO/dio.o
+ .comment       0x00000030       0x31 MCAL/timer/timer.o
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x3c
@@ -610,15 +610,15 @@ END GROUP
  .debug_aranges
                 0x00000000       0x30 APP/app.o
  .debug_aranges
-                0x00000030       0x38 DIO/dio.o
+                0x00000030       0x28 ECUAL/button/button.o
  .debug_aranges
-                0x00000068       0x28 ECUAL/button/button.o
+                0x00000058       0x38 ECUAL/LED/led.o
  .debug_aranges
-                0x00000090       0x38 ECUAL/LED/led.o
+                0x00000090       0x20 main.o
  .debug_aranges
-                0x000000c8       0x28 ECUAL/timer/timer.o
+                0x000000b0       0x38 MCAL/DIO/dio.o
  .debug_aranges
-                0x000000f0       0x20 main.o
+                0x000000e8       0x28 MCAL/timer/timer.o
 
 .debug_pubnames
  *(.debug_pubnames)
@@ -627,64 +627,64 @@ END GROUP
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_info    0x000004e6      0x7a6 APP/app.o
- .debug_info    0x00000c8c      0x158 DIO/dio.o
- .debug_info    0x00000de4      0x12c ECUAL/button/button.o
- .debug_info    0x00000f10      0x1c4 ECUAL/LED/led.o
- .debug_info    0x000010d4      0x124 ECUAL/timer/timer.o
- .debug_info    0x000011f8       0x92 main.o
+ .debug_info    0x00000c8c      0x12c ECUAL/button/button.o
+ .debug_info    0x00000db8      0x1c4 ECUAL/LED/led.o
+ .debug_info    0x00000f7c       0x92 main.o
+ .debug_info    0x0000100e      0x158 MCAL/DIO/dio.o
+ .debug_info    0x00001166      0x124 MCAL/timer/timer.o
 
 .debug_abbrev   0x00000000      0x827
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4a3 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_abbrev  0x000004a3       0xef APP/app.o
- .debug_abbrev  0x00000592       0x6f DIO/dio.o
- .debug_abbrev  0x00000601       0x89 ECUAL/button/button.o
- .debug_abbrev  0x0000068a       0x80 ECUAL/LED/led.o
- .debug_abbrev  0x0000070a       0xb5 ECUAL/timer/timer.o
- .debug_abbrev  0x000007bf       0x68 main.o
+ .debug_abbrev  0x00000592       0x89 ECUAL/button/button.o
+ .debug_abbrev  0x0000061b       0x80 ECUAL/LED/led.o
+ .debug_abbrev  0x0000069b       0x68 main.o
+ .debug_abbrev  0x00000703       0x6f MCAL/DIO/dio.o
+ .debug_abbrev  0x00000772       0xb5 MCAL/timer/timer.o
 
-.debug_line     0x00000000      0xa2c
+.debug_line     0x00000000      0xa55
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_line    0x00000116      0x43a APP/app.o
- .debug_line    0x00000550      0x1b1 DIO/dio.o
- .debug_line    0x00000701       0xb1 ECUAL/button/button.o
- .debug_line    0x000007b2       0xd1 ECUAL/LED/led.o
- .debug_line    0x00000883      0x14e ECUAL/timer/timer.o
- .debug_line    0x000009d1       0x5b main.o
+ .debug_line    0x00000116      0x43e APP/app.o
+ .debug_line    0x00000554       0xbe ECUAL/button/button.o
+ .debug_line    0x00000612       0xde ECUAL/LED/led.o
+ .debug_line    0x000006f0       0x5b main.o
+ .debug_line    0x0000074b      0x1be MCAL/DIO/dio.o
+ .debug_line    0x00000909      0x14c MCAL/timer/timer.o
 
 .debug_frame    0x00000000      0x1c0
  *(.debug_frame)
  .debug_frame   0x00000000       0x58 APP/app.o
- .debug_frame   0x00000058       0x54 DIO/dio.o
- .debug_frame   0x000000ac       0x34 ECUAL/button/button.o
- .debug_frame   0x000000e0       0x54 ECUAL/LED/led.o
- .debug_frame   0x00000134       0x68 ECUAL/timer/timer.o
- .debug_frame   0x0000019c       0x24 main.o
+ .debug_frame   0x00000058       0x34 ECUAL/button/button.o
+ .debug_frame   0x0000008c       0x54 ECUAL/LED/led.o
+ .debug_frame   0x000000e0       0x24 main.o
+ .debug_frame   0x00000104       0x54 MCAL/DIO/dio.o
+ .debug_frame   0x00000158       0x68 MCAL/timer/timer.o
 
-.debug_str      0x00000000      0x46c
+.debug_str      0x00000000      0x470
  *(.debug_str)
  .debug_str     0x00000000      0x196 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_str     0x00000196      0x176 APP/app.o
                                 0x183 (size before relaxing)
- .debug_str     0x0000030c       0x59 DIO/dio.o
-                                0x166 (size before relaxing)
- .debug_str     0x00000365       0x3a ECUAL/button/button.o
+ .debug_str     0x0000030c       0x52 ECUAL/button/button.o
                                 0x16b (size before relaxing)
- .debug_str     0x0000039f       0x2d ECUAL/LED/led.o
+ .debug_str     0x0000035e       0x42 ECUAL/LED/led.o
                                 0x170 (size before relaxing)
- .debug_str     0x000003cc       0x8f ECUAL/timer/timer.o
-                                0x1b3 (size before relaxing)
- .debug_str     0x0000045b       0x11 main.o
+ .debug_str     0x000003a0       0x11 main.o
                                 0x129 (size before relaxing)
+ .debug_str     0x000003b1       0x31 MCAL/DIO/dio.o
+                                0x16b (size before relaxing)
+ .debug_str     0x000003e2       0x8e MCAL/timer/timer.o
+                                0x1b2 (size before relaxing)
 
 .debug_loc      0x00000000      0x692
  *(.debug_loc)
  .debug_loc     0x00000000       0xeb APP/app.o
- .debug_loc     0x000000eb      0x278 DIO/dio.o
- .debug_loc     0x00000363       0xaa ECUAL/button/button.o
- .debug_loc     0x0000040d      0x108 ECUAL/LED/led.o
- .debug_loc     0x00000515      0x17d ECUAL/timer/timer.o
+ .debug_loc     0x000000eb       0xaa ECUAL/button/button.o
+ .debug_loc     0x00000195      0x108 ECUAL/LED/led.o
+ .debug_loc     0x0000029d      0x278 MCAL/DIO/dio.o
+ .debug_loc     0x00000515      0x17d MCAL/timer/timer.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -707,11 +707,11 @@ END GROUP
 .debug_ranges   0x00000000       0xc8
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x38 APP/app.o
- .debug_ranges  0x00000038       0x28 DIO/dio.o
- .debug_ranges  0x00000060       0x18 ECUAL/button/button.o
- .debug_ranges  0x00000078       0x28 ECUAL/LED/led.o
- .debug_ranges  0x000000a0       0x18 ECUAL/timer/timer.o
- .debug_ranges  0x000000b8       0x10 main.o
+ .debug_ranges  0x00000038       0x18 ECUAL/button/button.o
+ .debug_ranges  0x00000050       0x28 ECUAL/LED/led.o
+ .debug_ranges  0x00000078       0x10 main.o
+ .debug_ranges  0x00000088       0x28 MCAL/DIO/dio.o
+ .debug_ranges  0x000000b0       0x18 MCAL/timer/timer.o
 
 .debug_macro
  *(.debug_macro)

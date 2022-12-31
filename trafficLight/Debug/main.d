@@ -1,31 +1,32 @@
 main.d main.o: .././main.c .././APP/app.h .././APP/../ECUAL/LED/led.h \
- .././APP/../ECUAL/LED/../../DIO/dio.h \
- .././APP/../ECUAL/LED/../../DIO/../UDL/registers.h \
- .././APP/../ECUAL/LED/../../DIO/../UDL/types.h \
- .././APP/../ECUAL/LED/../../DIO/../UDL/bitControl.h \
+ .././APP/../ECUAL/LED/../../MCAL/DIO/dio.h \
+ f:\embbeded\trafficlight\trafficlight\udl\registers.h \
+ f:\embbeded\trafficlight\trafficlight\udl\types.h \
+ f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h \
  .././APP/../ECUAL/button/button.h \
- .././APP/../ECUAL/button/../../DIO/dio.h .././APP/../ECUAL/timer/timer.h \
- .././APP/../ECUAL/timer/../../UDL/registers.h \
+ .././APP/../ECUAL/button/../../MCAL/DIO/dio.h \
+ .././APP/../MCAL/timer/timer.h \
+ .././APP/../MCAL/timer/../../UDL/registers.h \
  .././APP/../UDL/interrupts.h
 
 .././APP/app.h:
 
 .././APP/../ECUAL/LED/led.h:
 
-.././APP/../ECUAL/LED/../../DIO/dio.h:
+.././APP/../ECUAL/LED/../../MCAL/DIO/dio.h:
 
-.././APP/../ECUAL/LED/../../DIO/../UDL/registers.h:
+f:\embbeded\trafficlight\trafficlight\udl\registers.h:
 
-.././APP/../ECUAL/LED/../../DIO/../UDL/types.h:
+f:\embbeded\trafficlight\trafficlight\udl\types.h:
 
-.././APP/../ECUAL/LED/../../DIO/../UDL/bitControl.h:
+f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h:
 
 .././APP/../ECUAL/button/button.h:
 
-.././APP/../ECUAL/button/../../DIO/dio.h:
+.././APP/../ECUAL/button/../../MCAL/DIO/dio.h:
 
-.././APP/../ECUAL/timer/timer.h:
+.././APP/../MCAL/timer/timer.h:
 
-.././APP/../ECUAL/timer/../../UDL/registers.h:
+.././APP/../MCAL/timer/../../UDL/registers.h:
 
 .././APP/../UDL/interrupts.h:

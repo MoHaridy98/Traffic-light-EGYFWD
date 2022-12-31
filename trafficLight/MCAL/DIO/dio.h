@@ -8,8 +8,8 @@
 
 #ifndef DIO_H_
 #define DIO_H_
-#include "../UDL/registers.h"
-#include "../UDL/bitControl.h"
+#include "../../UDL/registers.h"
+#include "../../UDL/bitControl.h"
 //******************************//
 //all driver macros*************//
 //******************************//

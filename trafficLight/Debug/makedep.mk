@@ -4,13 +4,13 @@
 
 APP\app.c
 
-DIO\dio.c
-
 ECUAL\button\button.c
 
 ECUAL\LED\led.c
 
-ECUAL\timer\timer.c
-
 main.c
+
+MCAL\DIO\dio.c
+
+MCAL\timer\timer.c
 
