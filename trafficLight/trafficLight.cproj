@@ -160,6 +160,9 @@
     <Compile Include="MCAL\DIO\dio.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="MCAL\interrupt\interrupts.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="MCAL\timer\timer.c">
       <SubType>compile</SubType>
     </Compile>
@@ -167,9 +170,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="UDL\bitControl.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="UDL\interrupts.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="UDL\registers.h">
@@ -186,6 +186,7 @@
     <Folder Include="ECUAL\LED\" />
     <Folder Include="MCAL" />
     <Folder Include="MCAL\DIO\" />
+    <Folder Include="MCAL\interrupt" />
     <Folder Include="MCAL\timer\" />
     <Folder Include="UDL\" />
   </ItemGroup>

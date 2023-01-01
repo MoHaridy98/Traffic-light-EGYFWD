@@ -12,8 +12,6 @@
 
 #include "../ECUAL/LED/led.h"
 #include "../ECUAL/button/button.h"
-#include "../MCAL/timer/timer.h"
-#include "../UDL/interrupts.h"
 
 
 void APP_init(void);

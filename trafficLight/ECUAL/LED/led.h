@@ -9,6 +9,7 @@
 #ifndef LED_H_
 #define LED_H_
 #include "../../MCAL/DIO/dio.h"
+#include "../../MCAL/timer/timer.h"
 
 // Car port and pins
 #define CAR_PORT PORT_A

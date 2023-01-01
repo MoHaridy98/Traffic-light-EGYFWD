@@ -9,6 +9,7 @@
 #ifndef BUTTON_H_
 #define BUTTON_H_
 #include "../../MCAL/DIO/dio.h"
+#include "../../MCAL/interrupt/interrupts.h"
 
 
 //Button port and pin
