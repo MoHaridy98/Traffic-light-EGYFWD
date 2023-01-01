@@ -989,7 +989,7 @@ void DIO_write(uint8_t portNumber, uint8_t pinNumber, uint8_t value){
  5b8:	08 95       	ret
 
 000005ba <TIMER_init>:
-#include "../../UDL/bitControl.h"
+#include <math.h>
 
 //initializes the timer into normal mode
 void TIMER_init()

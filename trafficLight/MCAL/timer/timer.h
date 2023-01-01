@@ -11,6 +11,7 @@
 
 
 #include "../../UDL/registers.h"
+#include "../../UDL/bitControl.h"
 
 
 void TIMER_init();//initialize Timer0

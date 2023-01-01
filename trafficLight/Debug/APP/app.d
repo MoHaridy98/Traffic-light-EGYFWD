@@ -5,8 +5,11 @@ APP/app.d APP/app.o: ../APP/app.c ../APP/app.h ../APP/../ECUAL/LED/led.h \
  f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h \
  ../APP/../ECUAL/LED/../../MCAL/timer/timer.h \
  f:\embbeded\trafficlight\trafficlight\udl\registers.h \
+ f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h \
+ ../APP/../ECUAL/LED/../../MCAL/interrupt/interrupts.h \
  ../APP/../ECUAL/button/button.h \
  ../APP/../ECUAL/button/../../MCAL/DIO/dio.h \
+ ../APP/../ECUAL/button/../../MCAL/timer/timer.h \
  ../APP/../ECUAL/button/../../MCAL/interrupt/interrupts.h
 
 ../APP/app.h:
@@ -25,8 +28,14 @@ f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h:
 
 f:\embbeded\trafficlight\trafficlight\udl\registers.h:
 
+f:\embbeded\trafficlight\trafficlight\udl\bitcontrol.h:
+
+../APP/../ECUAL/LED/../../MCAL/interrupt/interrupts.h:
+
 ../APP/../ECUAL/button/button.h:
 
 ../APP/../ECUAL/button/../../MCAL/DIO/dio.h:
+
+../APP/../ECUAL/button/../../MCAL/timer/timer.h:
 
 ../APP/../ECUAL/button/../../MCAL/interrupt/interrupts.h:

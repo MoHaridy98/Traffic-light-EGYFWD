@@ -7,7 +7,6 @@
 
 #include "timer.h"
 #include <math.h>
-#include "../../UDL/bitControl.h"
 
 //initializes the timer into normal mode
 void TIMER_init()
